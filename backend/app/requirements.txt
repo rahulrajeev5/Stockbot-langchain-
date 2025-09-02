@@ -1,0 +1,28 @@
+# Core
+pydantic==2.7.4
+pydantic-core==2.18.4   # latest that has prebuilt wheels for 3.12
+
+# LangChain & dependencies
+langchain==0.2.3
+langchain-community==0.2.3
+langchain-core==0.2.3
+
+
+
+# Web framework
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Data & utils
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+typing-extensions==4.12.2
+
+# NLP & extras
+langdetect==1.0.9
+tiktoken==0.7.0
+
+# HTTP requests
+httpx==0.27.0
+requests==2.32.3
